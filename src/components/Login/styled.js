@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AreaInteira = styled.div`
-  background-image: url(src\img\login.jpg);
+  background-image: url(https://github.com/EvanRispoli/voceTurista_Projeto_Bloco_FrontEnd/blob/master/src/img/login.jpg?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;

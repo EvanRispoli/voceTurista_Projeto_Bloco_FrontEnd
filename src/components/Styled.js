@@ -35,7 +35,7 @@ export const BtnSocial = styled.div`
   }
 `;
 export const AreaInteira = styled.div`
-  background-image: url(src\img\avaliacao.jpg);
+  background-image: url(https://github.com/EvanRispoli/voceTurista_Projeto_Bloco_FrontEnd/blob/master/src/img/avaliacao.jpg?raw=true);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
