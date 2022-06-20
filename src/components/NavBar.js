@@ -16,11 +16,12 @@ class NavBar extends React.Component {
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                 >
-                    <Nav.Link href="#action1">Restaurantes</Nav.Link>
-                    <Nav.Link href="#action2">Pontos turísticos</Nav.Link>
-                    <Nav.Link href="#action3">Dviversão</Nav.Link>
-                    <Nav.Link href="#action4">Hotéis</Nav.Link>
-                    <Nav.Link href="#action5">Hospital</Nav.Link>
+                    <Nav.Link href="#action1">Bancos</Nav.Link>
+                    <Nav.Link href="#action2">Delegacias</Nav.Link>
+                    <Nav.Link href="#action3">Hospitais</Nav.Link>
+                    <Nav.Link href="#action4">Parques</Nav.Link>
+                    <Nav.Link href="#action5">Atrações</Nav.Link>
+                    <Nav.Link href="#action5">Restaurantes</Nav.Link>
                     <Link to="/rating">
                         <Button variant="primary">
                             Avalie-nos
