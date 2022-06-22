@@ -1,3 +1,4 @@
+import { textAlign } from "@mui/system";
 import styled from "styled-components";
 
 export const BtnGet = styled.button`
@@ -40,4 +41,8 @@ export const AreaInteira = styled.div`
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  
+`;
+export const erro = styled.h1`
+textAlign: center;
 `;
