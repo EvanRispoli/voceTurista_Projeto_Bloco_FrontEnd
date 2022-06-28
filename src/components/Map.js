@@ -7,7 +7,7 @@ import '@tomtom-international/web-sdk-maps/dist/maps.css'
 import '@tomtom-international/web-sdk-plugin-searchbox/dist/SearchBox.css'
 import React from 'react'
 import POICard from './POICard'
-import NavBar from "./NavBar";
+import Cabecalho from "./NavBar";
 
 export default function Map() {
 
@@ -379,7 +379,7 @@ export default function Map() {
     <div style={{ width: "100%", height: "100vh" }} className="app">
       <div className="map" ref={mapElement} />
       <div className="nav-bar">
-        <NavBar />
+        <Cabecalho />
       </div>
       {poi.length !== 0 ?
         <div className="poi-box">
